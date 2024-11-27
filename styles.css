@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9; /* Light background */
+}
+
+header {
+    background: #007acc; /* Header color */
+    padding: 1.5em;
+    text-align: center;
+    color: white;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+p {
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+}
+
+nav a:hover {
+    background: #005f99; /* Color change on hover */
+    border-radius: 5px;
+}
+
+footer {
+    background: #333; /* Footer color */
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.hero, .services, .products, .about {
+    margin: 20px;
+    padding: 20px;
+    background: #fff; /* Section background */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bike {
+    margin: 10px;
+    text-align: center;
+}
+
+.products ul, .services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.products li, .services li {
+    background: #e2e2e2; /* Item background */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.img-mountainbike { 
+ width: 300px;
+}
+.img-roadbike {
+    width: 300px;
+}
+.img-hybridbike {
+    width: 300px;
+}
+.img-foldingbike {
+    width: 300px;
+}
+.img-nash {
+    width: 190px;
+
+}
+.img-allen {
+    width: 190px;
+}
+.img-frank {
+    width: 200px;
+
+}
+.img-eon {
+    width: 200px;
+}
